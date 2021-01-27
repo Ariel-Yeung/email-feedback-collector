@@ -33,14 +33,13 @@ class Mailer extends helper.Mail {
     }
 
     addRecipients() {
-        const personlize = new helper.Personalization();
-
+        const personalize = new helper.Personalization();
+    
         this.recipients.forEach(recipient => {
-            personlize.addTo(recipient);
+          personalize.addTo(recipient);
         });
-
         this.addPersonalization(personalize);
-    }
+      }
     
     async send() {
         const request = this.sgAPI.emptyRequest({
