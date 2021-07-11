@@ -1,12 +1,9 @@
 const mongoose = require('mongoose');
-const { Schema } = mongoose;     // same as const Schema = mongoose.Schema;
+const { Schema } = mongoose;
 
 const userSchema = new Schema({
-    googleID: String,
-    credits: { type: Number, default: 0 }
+  googleId: String,
+  credits: { type: Number, default: 0 }
 });
 
-mongoose.model('users', userSchema);   // create new collection called 'users'. If exist, will not override
-
-
-
+mongoose.model('users', userSchema);
