@@ -28,7 +28,7 @@ class Header extends Component {
                     to={this.props.auth ? '/surveys' : '/' }
                     className="left brand-logo"
                     >
-                        Survey Sender 123
+                        Survey Sender
                     </Link>
                     
                     <ul className="right">

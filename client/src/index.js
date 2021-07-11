@@ -9,6 +9,8 @@ import reduxThunk from 'redux-thunk';
 
 import App from './components/App';
 import reducers from './reducers';   // directly use index.js in reducers folder
+
+// development and for testing only
 import axios from 'axios';
 window.axios = axios;
 
