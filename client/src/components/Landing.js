@@ -4,9 +4,9 @@ const Landing = () => {
   return (
     <div style={{ textAlign: 'center' }}>
       <h1>
-        Emaily!
+      Email Survey Sender!
       </h1>
-      Collect feedback form your users
+      Collecting feedback form your users is now EASY. Just fill out a form.
     </div>
   );
 };
