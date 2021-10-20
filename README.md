@@ -18,9 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com) GIF
-
-Lets users send surveys to customers easily and in batch.
+This email feedback collector lets users send surveys to subscribers easily in batch, and display feedback statistics.
 
 ### Built With
 
